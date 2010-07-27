@@ -1,0 +1,36 @@
+============ 0.6 ============
+
+0.6-13: Correction to DIC
+0.6-12: DIC implemented
+0.6-11: Allow frailty spline parameters to be 0
+0.6-10: Option to plot marginal survival curves
+0.6-9: Documentation and code comments
+0-6-8: Minor update, added negbin prior
+0.6-7: Prior for nknots selectable, including poisson, geometric, power,
+poissonmix
+0.6-6: Thinning option, second fvar estimator, predict and plot function
+choice
+0.6-5: Bugfixes to ensure that several unlikely combinations of inputs work,
+and new predict and plot features
+0.6-4: Added "mixed" option for candidate knot distribution
+0.6-3: Speed improvements (recompute only the relevant portion of spline
+basis) and stability fixes (fixed first frailty spline par at 0, candidate
+knot boundary buffer)
+0.6-2: Bugfixes (correct Jacobian for adaptive selection, initialization)
+0.6-1: bdm branch merged in: adaptive knot selection by default, but p-spline
+estimation can be toggled. Additional bugfixes.
+
+============ 0.5 ============
+
+0.5-4: Removed a frailty shrinkage penalty
+0.5-3: Bugfixes caused by mixing branch
+0.5-2: Fixed compiler warnings in Windows/Linux due to inline functions and
+unused variables
+0.5-1: Meanone branch merged in: frailties and the frailty density are updated in such a way that the mean is always 1.
+
+============ OLDER ============
+
+0.4: Mixing branch (each spline component updated separately for improved mixing)
+0.3: Updated to use compiled code in C
+0.2: First stable working package
+0.1: Initial package created
